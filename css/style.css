@@ -33,19 +33,7 @@ a:hover{
      padding: 40px;
 }
 
-@media only screen and (max-width: 900px) {
-          .wrapper{
-               flex-direction: column;
-          }
 
-          .left-section{
-               margin-bottom: 50px;
-          }
-
-          .copyright{
-               margin-top: 200px;
-          }
-}
 
 h1{
      font-size: 70px;

@@ -1,0 +1,36 @@
+/*for Mobile*/
+
+@media only screen and (max-width:660px) {
+     .wrapper{
+          flex-direction: column;
+     }
+
+     .left-section .title h1{
+          font-size: 55px;
+     }
+
+     .right-section .game{
+          padding: 40px 90px;
+          margin-top: 0;
+     }
+
+     .copyright{
+          margin-top: 40px;
+     }
+
+}
+
+@media screen and (min-width: 660px) and (max-width: 1400px) {
+
+     .left-section .title h1{
+          font-size: 55px;
+          line-height: 1.3;
+     }
+
+     .right-section .game{
+          padding-right: 70px;
+          height: 400px;
+          width: 500px;
+     }
+}
+
